@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background: #ff7c4d;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  /* justify-content: end; */
+}
+#feathers{
+  display: flex;
+  position: absolute;
+  width: 300px;
+  top: 67%;
+  left: 43%;
+}
+.feather{
+  display: block;
+  width: 64px;
+  height: 300px;
+  border-radius: 60% 60% 40% 40% / 50% 50% 50% 50%;
+  background-color: #754319;
+  position: absolute;
+  bottom: 0;
+  transform-origin: bottom center;
+}
+#turkey{
+  height: 500px;
+  width: 50%;
+  margin: 20px auto;
+  position:  relative;
+  display:  flex;
+  justify-content: center;
+  display: flex;
+}
+.turkeyHead{
+  width: 125px;
+  height: 150px;
+  background:#b38759;
+  border-radius: 50%;
+  margin: 40px auto 0;
+  display: flex;
+  position: absolute;
+  top: 10%;
+}
+.turkeyFace {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  margin: 35px 20px;
+}
+.eye{
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.pupil{
+  background: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 22px;
+}
+.turkeyNose{
+  width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 49px solid #ebc94d;
+    position: absolute;
+    margin-top: 40px;
+    border-radius: 45%;
+}
+.snood{
+  display: block;
+  font-size: 153px;
+  color: #a8362d;
+  transform: scaleY(-1);
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  margin: 37px 0 0 55px;
+}
+.turkeyBody{
+  width: 200px;
+  height: 225px;
+  background:#b38759;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  top: 45%;
+}
+.wings{
+  position: absolute;
+  display: flex;
+  top: 47%;
+}
+.leftWing{
+  display: block;
+  width: 95px;
+  height: 160px;
+  background-color: #8D5C38;
+  border-radius: 100% 25% 100% 26% / 90% 40% 100% 40%;
+  /* position: absolute; */
+  margin-left: 4px;
+}
+.rightWing{
+  display: block;
+  width: 95px;
+  height: 160px;
+  background-color: #8D5C38;
+  border-radius: 28% 100% 14% 100% / 40% 93% 26% 65%;
+  margin-left: 34px;
+}
